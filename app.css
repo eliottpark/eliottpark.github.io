@@ -1,0 +1,150 @@
+/*=====================================================================
+                          General Styles
+=====================================================================*/
+
+.blur {
+  opacity: 0.8;
+  -webkit-backdrop-filter: blur(70px);
+  backdrop-filter: blur(70px);  
+}
+
+.button {
+  background-color: #245E62;
+  /* background-image: linear-gradient(to bottom right,#245E62,#277A80); */
+  border: none;
+  color: #FAFAFA;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Work Sans', sans-serif;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 4px;
+  opacity: 0.6;
+}
+
+.button:hover {
+  opacity: 1;
+}
+
+.button1 {
+  background-color: #FAFAFA;
+  border: 3px solid #FD8779;
+  color: #FD8779;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.button1:active {
+  background-color: #FD8779;
+  color: #FAFAFA;
+  /* transform: scale(1.1) translateY(-10px); */
+}
+
+.button1-checked{
+  background-color: #FD8779;
+  color: #FAFAFA;
+  border: 3px solid #FD8779;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.button1-checked:active {
+  background-color: #FAFAFA;
+  color: #FD8779;
+}
+/* .button1-checked:hover {
+  background-color: #FAFAFA;
+  color: #FD8779;
+} */
+.button1-disabled {
+  background-color: #FAFAFA;
+  border: 3px solid #FD8779;
+  color: #FD8779;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.button-color {
+  background-color: #245E62;
+}
+
+.home-button {
+  background-color: #245E62;
+  opacity:0.6;
+}
+
+.home-button:hover {
+  background-color: #245E62;
+  opacity: 1;
+}
+
+.container, .container-fluid {
+  margin-top: 20px;
+  /* margin-bottom: 20px; */
+}  
+
+.heading {
+  font-family: 'Poppins', sans-serif;
+  font-size: xx-large;
+}
+
+.sub-heading {
+  font-family: 'Work Sans', sans-serif;
+  font-size: x-large;
+  font-weight: 500;
+}
+
+.body {
+  font-family: 'Work Sans', sans-serif;
+  font-size: large;
+  font-weight: 400;
+}
+
+.errorMsg {
+  font-family: 'Work Sans', sans-serif;
+  font-size: large;
+  font-weight: 400;
+  color: #da4838;
+}
+
+.full-bar {
+  height: 0.5px;
+  background-color: #E0E0E0;
+}
+
+.ninety {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 0.5px;
+  background-color: #E0E0E0;
+}
+
+link {
+  color: #245E62;
+}
+
+.text-link {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.text-link:hover {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.bold {
+  font-weight: 900;
+}
+
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
